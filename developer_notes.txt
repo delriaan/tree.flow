@@ -1,0 +1,13 @@
+[2020.08.28 - cgeorge]
+	@1257: The following changes were identified during usage:
+	X #!! BUG: during initialization, my.tree$curnt should be set to "root"
+	X #!! FEATURE: Since branches can be named the same name, add a feature to $goto such that if there are multiple matches, the user is prompted to pick which one (choices displayed)
+	X #!! FEATURE: Method $curnt() should print the current name and id before returning the branch invisibly
+	X #!! FEATURE: Method $add.branches() transform the provided labels as follows: sprintf("%s -> %s", my.tree$curnt$name, "*.label")
+	X #!! BUG: Set both args for my.tree$goto to NULL as default.  If both NULL, return current branch.
+	X #!! FEATURE: The current index should reset to "root" after calling $populate()
+	X #!! FEATURE: Add friendly name to branch (remove "[a-zA-Z]+ -> ")
+	X #!! FEATURE: Add field "name" to stored rules
+	X #!! FEATURE: Add field "leaf.count" to branches to store the distinct count of the key values in `branch$values`
+	
+	@2220: Updated class methods to make it clear as to what is invisibly returned.  Added branch member `#` which allows inline access to the class methods not directly related to the branch.  A near-term enhancement will be to export the tree using the library "igraph"

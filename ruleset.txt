@@ -1,0 +1,7 @@
+name,def,desc
+Rule A,mpg >= 15,Rule Description
+Rule B,mpg < 30,Rule Description
+Rule C,mpg >= 20,Rule Description
+Rule D,(mpg %% 7) == 0,Rule Description
+Rule E,(mpg >= 20) | (mpg == 310),Rule Description
+Rule F,(mpg < 21) | (sqrt(mpg) < 30),Rule Description
