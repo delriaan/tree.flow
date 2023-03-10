@@ -5,6 +5,7 @@ Version: 4.0.0
 Date: 2020-07-01
 Author: Chionesu George <sapienti.Dei@outlook.com> [aut, cre]
 Maintainer: Chionesu George <sapienti.Dei@outlook.com>
+Encoding: UTF-8
 License: Unicorn Overlords
 Depends: R(>= 4.0.0),
   magrittr,
@@ -14,4 +15,4 @@ Depends: R(>= 4.0.0),
 Imports: 
   igraph,
   visNetwork
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.3
