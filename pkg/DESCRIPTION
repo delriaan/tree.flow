@@ -1,0 +1,18 @@
+Package: tree.flow
+Title: Tree Flow
+Description: Tree Flow is an R6 class that facilitates the creation and navigation of user-defined decision rules. 
+Version: 0.1.0
+Date: 2024-11-16
+Author: Chionesu George <imperialprofessional@duck.com> [aut, cre]
+Maintainer: Chionesu George <imperialprofessional@duck.com>
+Encoding: UTF-8
+License: file LICENSE
+Depends: R (>= 4.4.1)
+  , purrr (>= 1.0.0)
+  , magrittr
+  , data.table
+  , stringi
+Imports: 
+  igraph
+  , visNetwork
+RoxygenNote: 7.3.2
